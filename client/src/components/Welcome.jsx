@@ -131,7 +131,7 @@ const Welcome = () => {
 
             <div className='h-[1px] w-full bg-gray-400 my-2' />
 
-            {isLoading ? (
+            {isLoading ? ( // Added loader
               <Loader />
             ) : (
               <button
